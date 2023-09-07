@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - this is the main put function 
  * Return: Always 0.
