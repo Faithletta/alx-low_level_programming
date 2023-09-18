@@ -1,17 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
-void _puts(char *str) {
+/**
+ * _puts - Prints a string
+ * @str: The string to print
+ * Return: void
+ */
+void _puts(char *str)
+{
     if (str != NULL) {
         while (*str != '\0') {
             putchar(*str);
             str++;
         }
-    }
-    putchar('\n');
-}
 
-int main() {
-    char myString[] = "Hello, world!";
-    _puts(myString); // Call the _puts function
-    return 0;
+    putchar('\n');
 }
