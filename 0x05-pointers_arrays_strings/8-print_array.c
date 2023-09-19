@@ -5,12 +5,12 @@
  * print_array - Prints n element of an array of integers
  * @a: Array of integers
  * @n: Numbers of elements of the array to be printed
- * Return: Always
+ * Return: void
  */
 
 void print_array(int *a, int n)
-
 {
+	
 	int j;
 
 	for (j = 0; j < n; j++)
